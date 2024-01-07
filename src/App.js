@@ -1,8 +1,10 @@
 import "./App.css";
-import Welcome from "./components/welcome";
+import Post from "./components/use-state/post";
+// import Welcome from "./components/welcome";
 
 function App() {
-  return <Welcome></Welcome>;
+  // return <Welcome></Welcome>;
+  return <Post />;
 }
 
 export default App;
