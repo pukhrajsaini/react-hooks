@@ -1,8 +1,5 @@
 const PostCard = ({ data }) => {
   const { title, body, id } = data;
-
-  console.log(title, body, id);
-
   return (
     <div className="post-card">
       <h4 className="post-title">
