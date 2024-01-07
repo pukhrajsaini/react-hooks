@@ -1,11 +1,8 @@
 import "./App.css";
+import Welcome from "./components/welcome";
 
 function App() {
-  return (
-    <>
-      <h1>Welcome To React Hooks Session</h1>
-    </>
-  );
+  return <Welcome></Welcome>;
 }
 
 export default App;
