@@ -1,8 +1,9 @@
 import "./App.css";
-import Welcome from "./components/welcome";
+import GrandParent from "./components/use-context/grand-parent";
+// import Welcome from "./components/welcome";
 
 function App() {
-  return <Welcome></Welcome>;
+  return <GrandParent />;
 }
 
 export default App;
