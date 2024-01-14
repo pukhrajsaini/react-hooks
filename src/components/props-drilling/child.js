@@ -1,7 +1,5 @@
-import { useEmploy } from "./use-context";
-
-const Child = () => {
-  const { list } = useEmploy();
+const Child = ({ props }) => {
+  const list = props;
   return (
     <div className="child">
       <h1>Child Comp</h1>
