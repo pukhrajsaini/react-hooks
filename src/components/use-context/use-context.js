@@ -2,14 +2,30 @@ import { createContext, useContext } from "react";
 
 const AppContext = createContext();
 
+const employData = {
+  list: [
+    {
+      id: 1234,
+      name: "pukhraj",
+      skill: "NodeJS",
+    },
+    {
+      id: 1235,
+      name: "Shiv",
+      skill: "React",
+    },
+  ],
+  heading: "Employee List",
+};
+
 const AppProvider = ({ children }) => {
-  const userData = {
-    name: "pukhraj saini",
-    designation: "Sr Software Engineer",
-  };
   return (
-    <AppContext.Provider value={userData}> {children}</AppContext.Provider>
+    <AppContext.Provider value={employData}> {children}</AppContext.Provider>
   );
+};
+
+export const useEmploy = () => {
+  return useContext(AppContext);
 };
 
 export { AppContext, AppProvider };

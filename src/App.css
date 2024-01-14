@@ -8,3 +8,22 @@
   text-align: center;
   color: orange;
 }
+
+.grand-parent {
+  margin: 1vw 3vw;
+  height: 90vh;
+  width: 90vw;
+  border: 5px solid black;
+}
+.parent {
+  margin: 1vh 2vw;
+  height: 60vh;
+  width: 60vw;
+  border: 3px solid red;
+}
+.child {
+  margin: 2vh 3vw;
+  height: 40vh;
+  width: 40vw;
+  border: 3px solid rgb(49, 28, 184);
+}
